@@ -1,0 +1,39 @@
+.InputBackground {
+    background-image: url(./Mask\ Group.png);
+    border-radius: 5%;
+    width: 60%;
+    height: 75%;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+  
+  .InputBox {
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 5% 10% 0% 10%;
+    width: 70%;
+    height: 93%;
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .InputBackground {
+      height: 600px;
+      width: 90%;
+      margin-left: 5%;
+      padding-bottom: 20%;
+    }
+
+    .InputBox {
+      height: 100%;
+    }
+  }

@@ -1,0 +1,23 @@
+.MovieList {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    align-content: center;
+}
+
+.Movie-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+}
+
+
+
+.MovieImg img {
+    max-height: 90%;
+    width: auto;
+}

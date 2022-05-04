@@ -1,0 +1,31 @@
+.SongList {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    align-content: center;
+    align-items: center;
+}
+
+.Song-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+}
+
+.Song-information h4 {
+    font-size: 15px;
+}
+
+.Song-information p {
+    font-size: 10px;
+}
+
+.SongImg img {
+    max-height: 40px;
+    width: auto;
+    align-self: center;
+}
