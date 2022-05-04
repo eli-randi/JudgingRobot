@@ -13,7 +13,7 @@ export class Song extends React.Component {
         return (
             <div className="SongList" onClick = {() => this.props.onSelect(this.props.song)}>
                 <div className="SongImg">
-                <img src = {this.props.song.thumbnails[0].url} />      
+                <img alt='Song poster' src = {this.props.song.thumbnails[0].url} />      
                 </div>
                 <div className="Song-information">
                     <h4>{this.props.song.title}</h4>

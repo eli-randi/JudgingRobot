@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import PeepImage from './PeepImage.png'
-import { getMovies } from '../util/MoviesAPI';
-import { MovieBox } from '../Components/MovieBox/MovieBox';
 import { MainBox } from '../Components/MainBox/MainBox';
 
 function App() {
@@ -18,7 +16,7 @@ function App() {
         </div>
         
           <div className='ImageBox'>
-          <img src={PeepImage} />
+          <img alt='Man with a moustache and coffee illustration' src={PeepImage} />
           </div>
       </div>
       <div className="RightSide">
